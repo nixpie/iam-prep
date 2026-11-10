@@ -1,0 +1,23 @@
+{
+  "name": "IAM Prep",
+  "short_name": "IAM Prep",
+  "description": "Fiszki i scenariusze: Entra ID, AD, Exchange, PowerShell, SQL",
+  "lang": "pl",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#080c12",
+  "theme_color": "#080c12",
+  "icons": [
+    {
+      "src": "prism-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "prism-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

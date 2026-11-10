@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#080c12"><meta name="robots" content="noindex,nofollow"><title>Laboratorium · IAM Prep</title><link rel="stylesheet" href="studio.css?v=tasks1"><link rel="manifest" href="manifest.webmanifest"><link rel="apple-touch-icon" href="prism-192.png"><link rel="icon" href="prism-192.png"></head>
+<body class="reader"><nav class="mast"><a class="brand" href="./"><i class="mark" aria-hidden="true"></i>IAM Prep</a><a class="nav-link" href="./">Scenariusze ↗</a></nav>
+<main class="shell lab">
+<section id="workshop-picker">
+<header><h1>Warsztaty<span>.</span></h1><p>Wybierz język i uruchom pierwszy przykład na danych sześciu fikcyjnych kont.</p></header>
+<div class="workshop-grid">
+<a class="track sql-track" href="#sql"><span class="sculpt database" aria-hidden="true"><i></i><i></i><i></i></span><strong>SQL</strong><span>Zapytania, filtrowanie i łączenie tabel.</span><b>Wejdź do warsztatu →</b></a>
+<a class="track ps-track" href="#ps"><span class="sculpt shell-art" aria-hidden="true"><i>›_</i></span><strong>PowerShell</strong><span>Konta AD, właściwości i potoki obiektów.</span><b>Wejdź do warsztatu →</b></a></div></section>
+<section id="workshop" hidden>
+<a class="back-track" href="#">← Wybór warsztatu</a>
+<header><h1 id="track-name"></h1><p id="track-intro"></p></header>
+<label for="example">Lekcja</label><select id="example"></select>
+<p id="lesson" class="lesson-note"></p>
+<details class="exercise"><summary>Napisz prompt po polsku</summary>
+<p>Wypróbuj „Pokaż aktywne konta z IT” lub „Policz wyłączone konta z Legal”. Lokalny generator rozpoznaje te wzorce także dla HR. Dział i status możesz pominąć.</p>
+<label for="prompt">Co chcesz sprawdzić?</label><input id="prompt" placeholder="Pokaż aktywne konta z IT" maxlength="140">
+<button id="translate">Wstaw do konsoli ↓</button><p role="status" id="prompt-status"></p></details>
+<div class="lab-panel console"><div class="console-bar"><span class="console-symbol" aria-hidden="true">›_</span><strong>Terminal</strong><span class="file-name" id="file-name"></span></div>
+<label for="source" id="editor-title">Twoje zapytanie</label><textarea id="source" wrap="soft" rows="5" spellcheck="false" autocapitalize="off" autocorrect="off" autocomplete="off"></textarea>
+<div class="lab-actions"><button class="read-link" id="run">Uruchom ▸</button><button id="reset">Przywróć przykład</button></div>
+<h2 class="result-title">Wynik wykonania</h2><div id="output" aria-live="polite">Uruchom polecenie, żeby zobaczyć dane.</div></div>
+<details class="exercise" id="task-box" open><summary>Zadania na rozmowę <span id="task-count"></span></summary><p id="task"></p><details><summary>Podpowiedź</summary><p id="hint"></p></details><details><summary>Rozwiązanie i dopytanie</summary><pre class="solution"><code id="solution"></code></pre><button id="use-solution">Wstaw do konsoli ↑</button><p id="follow-up"></p></details><div class="lab-actions task-nav"><button id="prev-task">← Poprzednie</button><button id="next-task">Następne zadanie →</button></div></details>
+</section></main><script src="lab.js?v=tasks1"></script></body></html>
